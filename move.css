@@ -1,0 +1,222 @@
+.slider {
+  /*横幅94%で左右に余白を持たせて中央寄せ*/
+  padding: 0;
+  width: 100%;
+  margin: 10px auto;
+  position: relative;
+  z-index: -1;
+}
+
+.slider img {
+  width: 100%; /*スライダー内の画像を横幅100%に*/
+  height: auto;
+}
+
+/*slickのJSで書かれるタグ内、スライド左右の余白調整*/
+
+.slider .slick-slide {
+  margin: 0 10px;
+}
+
+.slick-dots {
+  text-align: center;
+  margin: 20px 0 0 0;
+  padding: 0;
+}
+
+.slick-dots li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.slick-dots button {
+  color: transparent;
+  outline: none;
+  width: 8px; /*ドットボタンのサイズ*/
+  height: 8px; /*ドットボタンのサイズ*/
+  display: block;
+  border-radius: 50%;
+  background: darkgrey; /*ドットボタンの色*/
+}
+
+.slick-dots .slick-active button {
+  background: white; /*ドットボタンの現在地表示の色*/
+}
+#g-nav {
+  /*position:fixed;にし、z-indexの数値を大きくして前面へ*/
+  position: fixed;
+  z-index: 99999;
+  /*ナビのスタート位置と形状*/
+  top: 0;
+  left: -120%;
+  width: 80%;
+  height: 100vh; /*ナビの高さ*/
+  background: black;
+  /*動き*/
+  transition: all 0.6s;
+}
+#g-nav a {
+  color: aliceblue;
+}
+
+/*アクティブクラスがついたら位置を0に*/
+#g-nav.panelactive {
+  left: 0;
+}
+
+/*ナビゲーションの縦スクロール*/
+#g-nav.panelactive #g-nav-list {
+  /*ナビの数が増えた場合縦スクロール*/
+  position: fixed;
+  z-index: 999;
+  width: 80%;
+  height: 100vh; /*表示する高さ*/
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/*ナビゲーション*/
+#g-nav ul {
+  /*ナビゲーション天地中央揃え*/
+  width: 80%;
+  margin: auto;
+  border-top: solid 1px #f6f6f6;
+  padding: 0;
+  position: absolute;
+  z-index: 999;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+/*リストのレイアウト設定*/
+
+#g-nav li {
+  list-style: none;
+  border-bottom: solid 1px #f6f6f6;
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+#g-nav li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+}
+.jfs_logo {
+  display: block;
+  width: 20%;
+  margin: 7px 15px 0 0;
+}
+.jfes_title {
+  font-size: 11px;
+  font-weight: bold;
+}
+.nav_top {
+  width: 98%;
+  padding: 13px 31px 11px 7px;
+  margin: 0px;
+  font-size: 10px;
+  border-bottom: none;
+  display: flex;
+}
+.nav_icon {
+  display: flex;
+}
+.fa-twitter::after {
+  padding-left: 50px;
+}
+
+/*========= ボタンのためのCSS ===============*/
+.openbtn {
+  position: fixed;
+  z-index: 999999; /*ボタンを最前面に*/
+  top: 10px;
+  left: 10px;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+}
+
+/*×に変化*/
+.openbtn span {
+  display: inline-block;
+  transition: all 0.4s;
+  position: absolute;
+  left: 14px;
+  height: 3px;
+  border-radius: 2px;
+  background-color: white;
+  width: 45%;
+}
+
+.openbtn span:nth-of-type(1) {
+  top: 15px;
+}
+
+.openbtn span:nth-of-type(2) {
+  top: 23px;
+}
+
+.openbtn span:nth-of-type(3) {
+  top: 31px;
+}
+
+.openbtn.active span:nth-of-type(1) {
+  top: 18px;
+  left: 18px;
+  transform: translateY(6px) rotate(-45deg);
+  width: 30%;
+}
+
+.openbtn.active span:nth-of-type(2) {
+  opacity: 0;
+}
+
+.openbtn.active span:nth-of-type(3) {
+  top: 30px;
+  left: 18px;
+  transform: translateY(-6px) rotate(45deg);
+  width: 30%;
+}
+/*ふわっCSS*/
+.fadeUp {
+  animation-name: fadeUpAnime;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+@keyframes fadeUpAnime {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.fadeIn {
+  animation-name: fadeInAnime; /*1で解説*/
+  animation-fill-mode: forwards; /*2で解説*/
+  animation-duration: 3s; /*3で解説*/
+
+  animation-timing-function: ease; /*5で解説*/
+  animation-delay: 0.5s; /*6で解説*/
+}
+@keyframes fadeInAnime {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

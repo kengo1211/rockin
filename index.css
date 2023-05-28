@@ -1,0 +1,665 @@
+img {
+  width: 100%;
+}
+body,
+p,
+div,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+body {
+  background-color: #1f1f1f;
+}
+.main_content {
+  background-image: url(images/mainvisual_bg_2022_sp.jpg);
+  height: 280px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+img.main_rogo {
+  position: absolute;
+  top: 50%;
+  z-index: 999;
+  width: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+img.main_menu {
+  position: fixed;
+  z-index: 999;
+  width: 10%;
+  left: 1%;
+  top: 1%;
+}
+.top_maincontent__info {
+  width: 100%;
+  font-size: 11px;
+  color: white;
+  text-align: center;
+  padding: 14px 0;
+  background-color: #000;
+  line-height: 1.5;
+}
+img {
+  vertical-align: bottom;
+}
+.swiper {
+  width: 300px;
+  height: 180px;
+}
+.tankyoutext {
+  font-size: 23px;
+  padding: 10px 0;
+  line-height: 1.25;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+img.shortcut {
+  height: 200px;
+  position: absolute;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+.shortcut {
+  position: relative;
+  z-index: -1;
+  height: 200px;
+  width: 100%;
+}
+.shortcut_text {
+  width: 90%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.shortcut_text_div {
+  display: flex;
+  padding: 0.5rem;
+  border: 1px solid;
+  margin-top: 0.5rem;
+  justify-content: space-between;
+}
+p.shortcut_text_en {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.black_bordar {
+  height: 30px;
+  width: 100%;
+  background-color: #1f1f1f;
+}
+
+img.report {
+  height: 240px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  position: absolute;
+}
+.report {
+  position: relative;
+  z-index: -1;
+  height: 240px;
+  width: 100%;
+}
+.report_title {
+  font-size: 20px;
+}
+.report_text {
+  width: 90%;
+  position: absolute;
+  color: aliceblue;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 14px;
+}
+.report_bottun {
+  position: absolute;
+  border: 1px solid;
+  width: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.colona_info {
+  position: relative;
+  z-index: -1;
+  height: 150px;
+  width: 100%;
+  background-color: #1f1f1f;
+}
+img.corona_banner {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.news_section {
+  position: relative;
+  z-index: -1;
+  background: #1f1f1f;
+  color: white;
+  padding: 30px 0;
+}
+.news_section_title {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.news_section_lists {
+  border-top: solid 1px #404040;
+  width: 80%;
+  margin: auto;
+  font-size: 12px;
+}
+.news_section_list {
+  display: flex;
+  border-bottom: solid 1px #404040;
+  padding: 13px 0;
+}
+.news_section_list_text_news_section_list_text_mini {
+  font-size: small;
+  margin-right: 10px;
+}
+.more_btn {
+  text-align: center;
+  display: block;
+  color: white;
+  text-decoration: none;
+  border: solid 1px;
+  width: 20%;
+  margin: auto;
+  margin-top: 20px;
+  padding: 3px 10px;
+}
+.topics {
+  text-align: center;
+  position: relative;
+  z-index: -1;
+  height: 350px;
+}
+.topics_top {
+  background-color: #1f1f1f;
+  color: aliceblue;
+  width: 100%;
+  text-align: center;
+  font-size: 28px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.topics_mid {
+  display: flex;
+  position: absolute;
+  color: aliceblue;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #1f1f1f;
+}
+.topics_img_title {
+  color: aliceblue;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+}
+.topics_img_text {
+  background-color: #1f1f1f;
+
+  color: aliceblue;
+  display: flex;
+  font-size: 11px;
+  line-height: 1.5;
+  text-align: center;
+}
+.topics_img_text1 {
+  padding: 5px 5px;
+  background-color: #1f1f1f;
+}
+.topics_img_text2 {
+  padding: 5px 5px;
+}
+.road_to_rij {
+  position: relative;
+  z-index: -1;
+  background-color: #1f1f1f;
+  color: aliceblue;
+  text-align: center;
+}
+img.roadto {
+  width: 50%;
+  padding: 20px;
+}
+.road_to_rij_titile {
+  font-size: 14px;
+}
+.road_to_rij_text {
+  padding: 10px;
+  font-size: 12px;
+}
+.tickets {
+  position: relative;
+  z-index: -1;
+  display: flex;
+  background-color: #034698;
+  color: aliceblue;
+}
+img.tickets_img {
+  width: 50%;
+}
+.tickets_info {
+  display: block;
+  text-align: center;
+}
+.tickets_title {
+  margin: 20px 50px;
+  font-size: 18px;
+}
+.tickets_text {
+  font-size: 10px;
+}
+.tickets_more {
+  display: block;
+  color: white;
+  text-decoration: none;
+  border: solid 1px;
+  margin: auto;
+  margin-top: 15px;
+  width: 80px;
+}
+.app {
+  position: relative;
+  z-index: -1;
+  display: flex;
+  background-color: #e66617;
+  color: aliceblue;
+}
+.app_info {
+  text-align: center;
+  padding: 0 30px;
+}
+.app_info_title {
+  font-size: 18px;
+}
+.app_info_text {
+  font-size: 10px;
+}
+.app_more {
+  display: block;
+  color: white;
+  text-decoration: none;
+  border: solid 1px;
+  margin: auto;
+  margin-top: 15px;
+  width: 80px;
+}
+img.app_img {
+  width: 50%;
+}
+.fin_and_apaler {
+  position: relative;
+  z-index: -1;
+  height: 250px;
+  display: flex;
+  text-align: center;
+  background-color: #1f1f1f;
+  color: aliceblue;
+  font-size: 10px;
+}
+.fin {
+  padding-top: 20px;
+  padding-left: 30px;
+  width: 40%;
+}
+.thanks {
+  padding-top: 10px;
+}
+.rockin_star {
+  padding-top: 45px;
+  padding-left: 15px;
+  width: 40%;
+}
+.rockinstar_text {
+  padding-top: 10px;
+}
+.movie {
+  padding: 30px 0 10px;
+  background-color: #000;
+}
+.youtube {
+  width: 80%;
+  display: block;
+  margin: 0 auto 30px;
+}
+.rij_guide {
+  background-image: url(images/guide_sky.jpg);
+  height: 650px;
+  position: relative;
+  z-index: -1;
+  background-position: right;
+  background-size: cover;
+}
+.guide_texts {
+  width: 100%;
+  position: absolute;
+}
+img.guide_logo {
+  width: 60%;
+  padding: 10px 80px;
+}
+.guide_letter {
+  padding: 10px 20px;
+}
+.guideS_buttton {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  border: solid 1px;
+  margin: 0 auto;
+  font-size: 16px;
+  width: 100px;
+  height: 32px;
+  line-height: 30px;
+  color: #000;
+}
+.guide_top {
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+.guide_day {
+  font-size: 12px;
+  padding-bottom: 20px;
+}
+.guide_text_1 {
+  font-size: 12px;
+  padding-bottom: 20px;
+}
+.guide_text_2 {
+  font-size: 12px;
+  padding-bottom: 20px;
+}
+.icon {
+  position: relative;
+  z-index: -1;
+  display: flex;
+}
+.icon_twitter {
+  float: left;
+  height: 76px;
+  width: 33.33vw;
+  display: block;
+  font-size: 0;
+  text-decoration: none;
+  background-color: #1da1f2;
+}
+.fa-twitter {
+  font-size: 25px;
+  height: 25px;
+  padding-top: 16px;
+  margin: 0 auto 8px;
+  padding-left: 50px;
+}
+.twitter_text {
+  color: #fff;
+  font-size: 11px;
+  line-height: 1;
+  text-align: center;
+  width: 100%;
+}
+.icon_mail {
+  float: left;
+  height: 76px;
+  width: 33.33vw;
+  display: block;
+  font-size: 0;
+  text-decoration: none;
+  background-color: #444;
+}
+.fa-envelope {
+  font-size: 25px;
+  height: 25px;
+  padding-top: 16px;
+  margin: 0 auto 8px;
+  padding-left: 50px;
+}
+.mail_text {
+  color: #fff;
+  font-size: 11px;
+  line-height: 1;
+  text-align: center;
+  width: 100%;
+}
+.icon_insta {
+  float: left;
+  height: 76px;
+  width: 33.33vw;
+  display: block;
+  font-size: 0;
+  text-decoration: none;
+  background-color: #a7269b;
+}
+.fa-instagram {
+  font-size: 25px;
+  height: 25px;
+  padding-top: 16px;
+  margin: 0 auto 8px;
+  padding-left: 50px;
+}
+.insta_text {
+  color: #fff;
+  font-size: 11px;
+  line-height: 1;
+  text-align: center;
+  width: 100%;
+}
+.sponsor {
+  position: relative;
+  z-index: -1;
+  padding: 30px 0 45px;
+  text-align: center;
+  background-color: #fff;
+}
+.sponsor_top {
+  margin-bottom: 20px;
+  line-height: 1;
+  font-size: 12px;
+  color: #444;
+}
+.sponsor_logo_top {
+  padding: 0 50px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.sponsor_logo_1 {
+  width: 108px;
+}
+.sponsor_logo_2 {
+  width: 62px;
+}
+.sponsor_logo_mid {
+  padding: 0 50px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.sponsor_logo_3 {
+  width: 55px;
+}
+.sponsor_logo_4 {
+  width: 76px;
+}
+.kyouroku_sction {
+  padding-top: 20px;
+  margin-bottom: 20px;
+  line-height: 1;
+  font-size: 12px;
+  color: #444;
+}
+.kyouryoku_logo {
+  padding: 0 50px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.kyouryoku_logo_1 {
+  width: 80px;
+}
+.kyouryoku_logo_2 {
+  width: 86px;
+}
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 48px 0 0;
+}
+.footer_logo {
+  width: 270px;
+  padding-left: 50px;
+}
+.footer_text {
+  margin: 21px auto 0 auto;
+  padding: 0px 20px;
+  font-size: 13px;
+  text-align: center;
+}
+.footer_menu {
+  padding: 32px 20px 24px;
+}
+.footer_links {
+  padding: 0 0 24px;
+  margin: 0 -8px;
+}
+.link_items {
+  color: #fff;
+  width: calc(50vw - 28px);
+  border-bottom: 1px solid #404040;
+  margin: 0 8px;
+  float: left;
+  font-size: 12px;
+  text-decoration: none;
+  line-height: 44px;
+}
+.link_item_last {
+  color: #fff;
+  width: calc(50vw - 28px);
+  border-bottom: 1px solid #404040;
+  margin: 0 8px;
+  float: left;
+  font-size: 12px;
+  text-decoration: none;
+  line-height: 44px;
+  line-height: 1.3em;
+  margin-top: 11px;
+}
+.footer_icon {
+  padding-top: 250px;
+  position: relative;
+  z-index: -1;
+}
+.footer_icon_twitter {
+  float: left;
+  height: 76px;
+  width: 33.33vw;
+  display: block;
+  font-size: 0;
+  text-decoration: none;
+  background-color: #000;
+}
+.footer_icon_mail {
+  float: left;
+  height: 76px;
+  width: 33.33vw;
+  display: block;
+  font-size: 0;
+  text-decoration: none;
+  background-color: #000;
+}
+.footer_icon_insta {
+  float: left;
+  height: 76px;
+  width: 33.33vw;
+  display: block;
+  font-size: 0;
+  text-decoration: none;
+  background-color: #000;
+}
+.footer_copyright {
+  position: relative;
+  z-index: -1;
+}
+.toiawase {
+  color: #fff;
+  text-decoration: none;
+  font-size: 12px;
+  padding-left: 150px;
+}
+.copyright {
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+  line-height: 1;
+  padding: 20px;
+}
+i.fa-brands.fa-twitter.fa-toggle,
+i.fa-regular.fa-envelope.fa-toggle,
+i.fa-brands.fa-instagram.fa-toggle {
+  margin-left: -28px;
+}
+.nav_sm_inner {
+  height: 70px;
+  width: 100%;
+  position: relative;
+}
+.nav_icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.nav_icon_twitter,
+.nav_icon_mail,
+.nav_icon_insta {
+  width: 30%;
+}
+
+.test {
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem 0;
+}
+.test_icons {
+  text-align: center;
+}
+.test_icon {
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+p.test_icons_text {
+  color: white;
+  font-size: 0.1rem;
+  margin-top: 3px;
+  letter-spacing: 0.4em;
+}

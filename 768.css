@@ -1,0 +1,126 @@
+@media (min-width: 768px) {
+  #g-nav li {
+    padding: 10px 0;
+  }
+
+  .main_content {
+    height: 360px;
+  }
+  .slider {
+    width: 80%;
+  }
+  .top_maincontent__info {
+    font-size: 15px;
+  }
+  img.shortcut,
+  .shortcut,
+  .report,
+  img.report {
+    height: 350px;
+  }
+
+  .colona_info {
+    height: 200px;
+  }
+  img.corona_banner {
+    width: 60%;
+  }
+  .shortcut_text_div {
+    padding: 1rem;
+    margin-top: 1.5rem;
+  }
+
+  .report_text {
+    font-size: 20px;
+  }
+  .news_section_lists {
+    font-size: 15px;
+  }
+  img.roadto {
+    padding: 30px;
+  }
+  .road_to_rij_titile {
+    font-size: 20px;
+  }
+  .road_to_rij_text {
+    font-size: 15px;
+  }
+  .tickets_info,
+  .app_info {
+    margin: auto;
+  }
+  .tickets_title,
+  .app_info_title {
+    font-size: 25px;
+  }
+  .tickets_text,
+  .app_info_text,
+  .guide_top,
+  .guide_day,
+  .guide_text_1,
+  .guide_text_2 {
+    font-size: 15px;
+  }
+  .tickets_more,
+  .app_more {
+    margin-top: 30px;
+    font-size: 20px;
+  }
+  .fin_and_apaler {
+    height: 350px;
+    align-items: center;
+    font-size: 15px;
+  }
+  .fin {
+    padding-top: 10px;
+    padding-left: 50px;
+  }
+  .rockin_star {
+    padding-left: 50px;
+    padding-top: 0;
+  }
+  .movie {
+    padding: 50px 0 10px;
+  }
+  .youtube {
+    margin: 0 auto 50px;
+    height: 250px;
+  }
+  img.guide_logo {
+    padding: 20px 150px;
+  }
+  .guide_letter {
+    padding: 10px 20px;
+    text-align: -webkit-match-parent;
+  }
+  .guideS_buttton {
+    font-size: 20px;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+  }
+  .icon_twitter,
+  .icon_mail,
+  .icon_insta {
+    height: 100px;
+  }
+  .twitter_text,
+  .mail_text,
+  .insta_text {
+    font-size: 15px;
+    margin-top: 15px;
+  }
+  .sponsor {
+    display: none;
+  }
+  .footer_logo {
+    padding-left: 250px;
+  }
+  .fa-twitter,
+  .fa-envelope,
+  .fa-instagram {
+    display: block;
+    text-align: center;
+    padding-left: 0;
+  }
+}
